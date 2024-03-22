@@ -1,0 +1,15 @@
+.document-content-nav {
+  min-width: 240px;
+  width: 240px;
+  height: fit-content;
+  top: 40px;
+  @apply pl-8 border-l border-base-500 my-9 sticky ml-10;
+
+  @media only screen and (max-width: 1200px) {
+    display: none;
+  }
+
+  @media only screen and (min-width: 120px) {
+    display: none;
+  }
+}

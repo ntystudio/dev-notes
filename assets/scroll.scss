@@ -1,0 +1,20 @@
+/* total width */
+.scrollbar::-webkit-scrollbar {
+  @apply bg-light-color-base-40 dark:bg-dark-color-base-30;
+  width: 10px;
+}
+
+/* scrollbar itself */
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 14px;
+  border: 10px solid transparent;
+  @apply border-light-color-base-50 dark:border-dark-color-base-40;;
+}
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-light-color-base-50 dark:bg-dark-color-base-40;
+}
+
+/* set button(top and bottom of the scrollbar) */
+.scrollbar::-webkit-scrollbar-button {
+  display: none;
+}

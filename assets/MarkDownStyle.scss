@@ -1,0 +1,153 @@
+* {
+  @apply text-dark-color-base-00 dark:text-light-color-base-00;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+strong,
+b {
+  @apply text-dark-color-base-00 dark:text-light-color-base-00;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  line-height: 1.5em;
+}
+
+#side-nav h3 {
+  @apply font-sans uppercase text-sm;
+}
+
+#side-nav a:hover {
+  background-color: transparent;
+}
+
+#main h3 {
+  @apply font-mono uppercase text-lg bg-light-color-base-20 dark:bg-dark-color-base-20;
+  padding: 6px 8px;
+  border-radius: 4px;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+a {
+  font-weight: 500;
+}
+
+a:hover {
+  @apply rounded dark:bg-dark-color-base-40 bg-light-color-base-30;
+}
+
+h1 {
+  font-weight: 500 !important;
+  margin: 0 !important;
+}
+
+img {
+  border-radius: 10px;
+}
+
+ul {
+  margin-left: 1.25em;
+}
+
+p,
+li {
+  font-size: 1.2em;
+}
+
+li {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.hljs {
+  background: transparent !important;
+}
+
+a:hover {
+  color: (255, 255, 255, 0.5) !important;
+}
+
+blockquote {
+  @apply bg-light-color-base-30 dark:bg-dark-color-base-30;
+  @apply border-light-color-base-40 dark:border-dark-color-base-40;
+  border-width: 1px;
+  border-left-width: 1px !important;
+  border-radius: 5px;
+  padding: 0.25em 1.25em;
+}
+
+blockquote p {
+  font-style: italic;
+  font-weight: normal;
+}
+
+blockquote p::before,
+blockquote p::after {
+  content: none !important;
+}
+
+.prose-sm
+  :where(blockquote):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  padding-left: 2em;
+}
+
+hr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+code::before,
+code::after {
+  content: none !important;
+}
+
+code {
+  padding: 0.1em 0.4em;
+  @apply text-light-color-yellow dark:text-dark-color-yellow;
+  @apply bg-light-color-base-30 dark:bg-dark-color-base-30;
+  border-radius: 4px;
+}
+
+pre code.hljs {
+  font-size: 1.25em;
+}
+
+.prose-sm
+  :where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+hr {
+  position: relative;
+  height: 1px !important;
+  width: 100%;
+  background: repeating-linear-gradient(
+    90deg,
+    #454545,
+    #454545 4px,
+    transparent 4px,
+    transparent 10px
+  ) !important;
+  border: none;
+}
+
+.hljs-function {
+  @apply dark:text-white text-white  #{!important};
+  .hljs-params {
+    @apply dark:text-slate-100 text-yellow-300  #{!important};
+  }
+}
