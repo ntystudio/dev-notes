@@ -24,6 +24,18 @@ This is a living, breathing collection that is continually updated as we come ac
 
 [Interface In Game](https://interfaceingame.com/) provides a collection of game interfaces, screenshots, and video clips. It's a great resource to build interface moodboards or find references when designing game UI/UX.
 
+[Laws of UX](https://lawsofux.com/) is a collection of best practices that designers should consider when designing user interfaces.
+
+[Colorable](https://colorable.jxnblk.com/) is a tool that helps you test color contrast between your UI text color and background color.
+
+[Free Faces](https://freefaces.gallery/) is a collection of free typefaces for commercial use (under various licenses).
+
+[The League of Moveable Type](https://www.theleagueofmoveabletype.com/) is a collection of open-source typefaces.
+
+
+
+
+
 ---
 
 ### Productivity
