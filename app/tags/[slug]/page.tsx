@@ -1,5 +1,5 @@
-import { getAllTags } from "@/util/tags";
 import Link from "next/link";
+import { getAllTags } from "@/util/tags";
 import { PostMetaData } from "@/interface/PostMetaData";
 
 export const generateStaticParams = async () => {

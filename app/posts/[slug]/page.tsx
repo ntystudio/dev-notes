@@ -1,21 +1,17 @@
 import fs from "fs";
 import matter from "gray-matter";
 import getPostMetaData from "@/util/getPostMetadata";
-import { getAllTagPastRelatedToPage } from "@/util/tags";
-// import DocContentNav from "@/components/DocContentNav";
-// import DocContentItem from "@/components/DocCententItem";
+import {getAllTagPastRelatedToPage} from "@/util/tags";
 import MarkdowContent from "@/components/MarkdowContent";
-import { PostMetaData } from "@/interface/PostMetaData";
-import { Metadata } from "next";
+import {PostMetaData} from "@/interface/PostMetaData";
+import {Metadata} from "next";
 import Link from "next/link";
 import dayjs from "dayjs";
-// import Head from "next/head";
 
 const getPostContent = (slug: string, folder: string) => {
   const file = `${folder}/${slug}.md`;
   const content = fs.readFileSync(file, "utf8");
-  const matterResult = matter(content);
-  return matterResult;
+  return matter(content);
 };
 
 // const getTitlesFromText = (text: string) => {
